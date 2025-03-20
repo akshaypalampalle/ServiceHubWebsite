@@ -202,7 +202,7 @@ footer p {
 
     <!-- Security System Services Banner -->
     <div class="banner">
-        <img src="images/securitysystemservicesbanner.jpeg" alt="Security System Services Banner">
+        <img src="images/securitysystemservicesbanner.jpg" alt="Security System Services Banner">
     </div>
 
     <!-- Service Section -->

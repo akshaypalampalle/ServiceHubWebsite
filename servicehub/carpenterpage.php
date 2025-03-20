@@ -202,7 +202,7 @@
 
     <!-- Carpenter Services Banner -->
     <div class="banner">
-        <img src="images/carpenterservicesbanner.jpeg" alt="Carpenter Services Banner">
+        <img src="images/carpenterservicesbanner.jpg" alt="Carpenter Services Banner">
     </div>
 
     <!-- Service Section -->

@@ -3,87 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Work - Service Hub</title>
+    <title>Service Hub</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
-        body { background: #f4f4f4; text-align: center; padding-top: 80px; }
-
-        /* Page Title */
-        h1 {
-            font-size: 32px;
-            color: #004aad;
-            margin-bottom: 20px;
+        /* Header Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
 
-        /* Work Section */
-        .work-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 60px; /* Adjust as needed */
+            width: auto;
+        }
+
+        /* Navigation Menu */
+        .nav-links {
+            list-style: none;
+            display: flex;
             gap: 20px;
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
+            padding: 0;
+            margin: 0;
         }
 
-        .work-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
+        .nav-links li {
+            display: inline;
         }
 
-        .work-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        .work-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            background: rgba(0, 74, 173, 0.8);
-            color: white;
-            width: 100%;
-            padding: 10px;
-            text-align: center;
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
             font-size: 18px;
-            transition: transform 0.3s ease;
-            transform: translateY(100%);
+            font-weight: bold;
+            transition: color 0.3s;
         }
 
-        .work-item:hover .overlay {
-            transform: translateY(0);
+        .nav-links a:hover {
+            color: #007bff;
         }
     </style>
 </head>
 <body>
 
-    <h1>Our Work</h1>
-
-    <div class="work-container">
-        <div class="work-item">
-            <img src="work1.jpg" alt="Project 1">
-            <div class="overlay">Project 1</div>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="Service Hub Logo" class="logo">
         </div>
-        <div class="work-item">
-            <img src="work2.jpg" alt="Project 2">
-            <div class="overlay">Project 2</div>
-        </div>
-        <div class="work-item">
-            <img src="work3.jpg" alt="Project 3">
-            <div class="overlay">Project 3</div>
-        </div>
-        <div class="work-item">
-            <img src="work4.jpg" alt="Project 4">
-            <div class="overlay">Project 4</div>
-        </div>
-    </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 </body>
 </html>

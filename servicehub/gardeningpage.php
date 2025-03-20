@@ -202,7 +202,7 @@
 
     <!-- Gardening Services Banner -->
     <div class="banner">
-        <img src="images/gardeningservicesbanner.jpeg" alt="Gardening Services Banner">
+        <img src="images/gardeningservicesbanner.jpg" alt="Gardening Services Banner">
     </div>
 
     <!-- Service Section -->

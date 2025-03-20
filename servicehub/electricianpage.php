@@ -206,7 +206,7 @@
 
      <!-- Electrical Banner -->
      <div class="banner">
-        <img src="images/electricalservicesbanner.jpeg" alt="Electrical Services Banner">
+        <img src="images/electricalservicesbanner.jpg" alt="Electrical Services Banner">
     </div>
 
     <!-- Service Section -->

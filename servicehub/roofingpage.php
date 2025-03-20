@@ -202,7 +202,7 @@
 
     <!-- Roofing Services Banner -->
     <div class="banner">
-        <img src="images/roofingservicesbanner.jpeg" alt="Roofing Services Banner">
+        <img src="images/roofingservicesbanner.jpg" alt="Roofing Services Banner">
     </div>
 
     <!-- Service Section -->

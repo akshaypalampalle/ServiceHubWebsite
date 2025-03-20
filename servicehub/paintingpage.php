@@ -202,7 +202,7 @@
 
     <!-- Painting Services Banner -->
     <div class="banner">
-        <img src="images/paintingservicesbanner.jpeg" alt="Painting Services Banner">
+        <img src="images/paintingservicesbanner.jpg" alt="Painting Services Banner">
     </div>
 
     <!-- Service Section -->
