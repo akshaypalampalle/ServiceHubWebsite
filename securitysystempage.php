@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -283,13 +281,6 @@ footer p {
 
 
 <?php
-
-
-
-
-
-
-
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
